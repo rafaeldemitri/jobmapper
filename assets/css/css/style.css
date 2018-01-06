@@ -1,0 +1,70 @@
+ html,
+ body {
+ 	height: 100%;
+ 	background-color: #666666;
+ }
+
+ .jumbotron {
+ 	text-align: center;
+ 	background-color: #264d73;
+ 	color: #ffffff;
+ }
+
+ .navbar {
+ 	margin-top: -25px;
+ }
+
+ .container-fluid {
+ 	background-color: #eeeeee;
+ 	border: 3px solid #264d73;
+ }
+
+.map {
+	border: 2px solid #264d73;
+	border-radius: 25px;
+	margin-left: 15px;
+	margin-right: 25px;
+	width: 500px;
+	padding: 10px;
+	background-color: #eeeeee;
+
+}
+
+.results {
+	border: 2px solid #264d73;
+	border-radius: 25px;
+	margin-left: 25px;
+	width: 590px;
+	padding: 10px;
+	background-color: #eeeeee;
+}
+
+footer {
+	position: fixed;
+	height: 7%;
+	bottom: 0px;
+	width: 83%;
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	line-height: 150%;
+}
+
+#jumbotron {
+	width: 100%;
+	height: 200px;
+}
+
+#fg1 {
+	margin-right: 0px;
+	margin-left: 200px;
+}
+
+#fg2 {
+	margin-right: 0px;
+	margin-left: 15px;
+}
+
+#search-button {
+	margin-left: 15px;
+}

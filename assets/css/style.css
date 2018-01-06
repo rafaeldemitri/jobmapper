@@ -1,0 +1,103 @@
+ html,
+ body {
+ 	height: 110%;
+ }
+
+ body {
+ 	background-color: #FFFFFF;
+ }
+
+ .jumbotron {
+ 	text-align: center;
+ 	background-color: #264d73;
+ 	color: #ffffff;
+ 	height: 200px;
+ }
+
+.map {
+	border-radius: 5px;
+	height: 350px;
+	background-color: #eeeeee;
+	margin-left: -5px;
+}
+
+.results {
+	border-radius: 5px;
+	height: 350px;
+	background-color: #eeeeee;
+	margin-left: 5px;
+	overflow-y: scroll;
+}
+
+#fg1 {
+	margin-right: 0px;
+}
+
+#nav-search, #nav-zip {
+	padding-right: .0625%;
+}
+
+#search-input {
+	border: 1px solid #606060;
+}
+
+#zip-input {
+	border: 1px solid #606060;
+}
+
+#fg2 {
+	margin-right: 0px;
+	margin-left: 5px;
+}
+
+#search-button {
+	margin-left: 5px;
+	background-color: #606060;
+	color: #FFFFFF;
+	border: 1px solid #606060;
+}
+
+.jumbotron{
+  position: relative;
+  z-index:-101;
+  overflow: hidden;
+  margin-bottom: 5px;
+  height: 300px;
+}
+
+#video-background { 
+  position: absolute;
+    top: -1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    width:100%;
+    opacity: 0.4;
+}
+
+#header-title {
+	font-family: 'Special Elite', cursive;
+	opacity: 0.8;
+	margin-top: 4%;
+	font-size: 88px;
+}
+
+.job-Name {
+	color: #0000FF;
+	font-weight: bold;
+}
+
+.job-url {
+	padding-bottom: 15px;
+}
+
+.job-company {
+	font-weight: bold;
+}
+#infowindow-content:empty {
+	display: none;
+}
+.marked {
+	background-color: rgba(52, 137, 223, 0.53)
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Normalize CSS from Meyerweb -->
+	<link rel="stylesheet" href="assets/css/reset.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+	
+	<!-- BOOTSTRAP - Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- BOOTSTRAP - Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	
+	<link rel="stylesheet" href="assets/css/style.css">
+	<meta charset="UTF-8">
+	<title>API Mashup Project</title>
+</head>
+<body>
+
+	<div class="jumbotron">
+
+		<div id="header-title">jobMapper</div>
+
+		<video id="video-background" preload muted autoplay loop>
+	  		<source src="assets/images/city.mp4" type="video/mp4">
+	   	</video>
+
+ 	</div>
+	
+	<div class="container">
+
+	<nav class="navbar">
+
+  		<div class="container-fluid">
+
+			<div class="row">
+
+				<div class="col-xs-0 col-sm-1 col-md-2"></div>
+
+			    <div class="col-xs-12 col-sm-4 col-md-3" id="nav-search">
+
+	    		    <div class="form-group" id="fg1">
+
+	      			    <input type="text" class="form-control" placeholder="Job Title" id="search-input">
+
+	    		    </div>
+
+	    	    </div>
+
+			    <div class="col-xs-12 col-sm-4 col-md-3" id="nav-zip">
+
+	    		    <div class="form-group" id="fg2">
+
+	    			    <input type="text" class="form-control" placeholder="Zip Code" id="zip-input">
+
+				    </div>
+
+	    		</div> 
+
+			    <div class="col-xs-12 col-sm-2 col-md-2">
+
+	    			<button type="submit" class="btn" id="search-button">Search Job</button>
+
+		    	</div>
+
+			</div>
+
+  		</div><!-- /.container-fluid -->
+
+	</nav>
+		
+
+<div class="row" id="map-job-holder">
+
+	<div class="col-xs-12 col-sm-3 col-md-6 map" id="map"></div>
+
+	<div class="col-xs-12 col-sm-3 col-md-6 results" id="results"></div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+	<!-- Javascript after all HTML elements so document is ready -->
+	
+	<!-- jQuery CDN -->
+<script
+	src="https://code.jquery.com/jquery-3.2.1.js"
+	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous">
+</script>
+	
+<!-- jQuery form validation-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js"></script>	
+
+<!-- aditional-methods.js for form validation-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.js"></script>	
+
+<!-- BOOTSTRAP - Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- Link to Project Javascript file with AJAX calls -->
+<script src="assets/javascript/logic.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrZ87yMdT4iRV1_SYXWHbI0a7H3PI_Vt8&libraries=places&callback=initMap" async defer></script>
+
+</body>
+</html>
